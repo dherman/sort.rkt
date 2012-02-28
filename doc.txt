@@ -1,0 +1,32 @@
+_Sort_
+_sort_
+
+This collection provides one file:
+
+ _main.rkt_: useful sorting utilities.
+
+======================================================================
+
+The "natural" comparison predicates are based on Martin Pool's
+algorithm, which can be found at:
+
+    http://sourcefrog.net/projects/natsort/
+
+Provided functions:
+
+> string-natural<?
+> string-natural<=?
+> string-natural>?
+> string-natural>=?
+> string-natural-ci<?
+> string-natural-ci<=?
+> string-natural-ci>?
+> string-natural-ci>=?
+> path-natural<?
+> path-natural<=?
+> path-natural>?
+> path-natural>=?
+> path-natural-ci<?
+> path-natural-ci<=?
+> path-natural-ci>?
+> path-natural-ci>=?
